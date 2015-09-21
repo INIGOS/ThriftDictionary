@@ -1,0 +1,9 @@
+service extractionservices {
+
+   void ping(),
+
+   map<string,string> ExAcro(1:string input),
+
+   oneway void zip()
+
+}
